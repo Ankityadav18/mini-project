@@ -1,0 +1,91 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+img{
+    width: 150px;
+    height: 150px;
+border-radius: 50%;
+margin: 20px;
+}
+
+thead{
+    background-color: lightblue;
+    color: rgb(12, 11, 11);
+    font-size: 20px;
+}
+td,th{
+    padding: 30px;
+}
+tbody tr{
+    background-color: white(242, 210, 168);
+    font-size: 30px;
+    color:rgb(226, 43, 43);
+  
+    
+
+}
+tbody tr:nth-child(even):hover{
+    background-color: rgb(38, 38, 87);
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+table{
+    width: 80%;
+    margin: 50px auto;
+}
+.edit-btn{
+    background-color: rgb(72, 135, 8);
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.edit-btn:hover{
+    background-color: crimson;
+}
+.view-btn{
+    background-color: rgb(246, 255, 0);
+    width: 100%;
+    height: 30px;
+    border: none;
+border-radius: 3px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.view-btn:hover{
+    background-color: blue;
+
+}
+
+
+.delete-btn{
+    background-color: red;
+    width: 100%;
+    height: 30px;
+    border: none;
+border-radius: 3px;
+    font-size: 20px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.delete-btn:active{
+    background: red;
+}
